@@ -1,0 +1,32 @@
+DrumScript-web/
+├── index.html              # the single-page app
+├── styles.css              # all styling
+├── js/
+│   ├── main.js             # UI wiring, button handlers
+│   ├── audio-io.js         # decode uploads, encode WAV downloads
+│   ├── feature-detect.js   # check browser capabilities (WebGPU/WASM)
+│   └── pyodide-worker.js   # Web Worker that loads Pyodide + drumscript from PyPI
+├── assets/
+│   ├── logo_drumscript_dark.svg
+│   ├── logo_drumscript_dark.png
+│   ├── logo_drumscript_light.png
+│   ├── logo_drumscript_grey.svg
+│   └── drumscript_pattern_sentryio__style__12.webp
+├── .github/
+│   └── workflows/
+│       └── deploy.yml      # builds and deploys to GitHub Pages on push to main
+├── .gitignore
+├── LICENSE
+└── README.md               # already exists from repo creation.
+├── LICENSE
+├── README.md
+├── index.html
+├── js
+│   ├── audio-io.js
+│   ├── feature-detect.js
+│   ├── main.js
+│   └── pyodide-worker.js
+├── styles.css
+└── tree.txt
+
+2 directories, 9 files
