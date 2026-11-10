@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (not used yet, but just in case)
+node_modules/
+
+# Python artefacts (Pyodide may cache locally)
+__pycache__/
+*.pyc
+
+# Build output
+_site/
+
+## temp local dev paths
+.development/
+.archive/
