@@ -23,4 +23,3 @@ _site/
 .development/
 .archive/
 test_audio/
-! .github/workflows/deploy.yml
